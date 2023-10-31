@@ -6,6 +6,9 @@
   transform-origin: top left;
   transform: rotate(45deg);
   transition: 1s;
+  position: relative;
+  top: 10px;
+  left:15px
 }
 
 .hamburger:hover > div:nth-child(2){
@@ -24,6 +27,10 @@
   transform-origin: bottom left;
   transform: rotate(-45deg);
   transition: 1s;
+  position: relative;
+  bottom: 10px;
+  left: 15px
+  /* transform: rotateX(-45deg'angle'); */
 }
 
 nav {
